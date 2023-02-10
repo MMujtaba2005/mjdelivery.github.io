@@ -1,0 +1,67 @@
+ /* Navigation */
+
+ #navbar{
+    flex-direction: column; /* taa ke logo or navbar centre me ajaey*/
+ }
+
+ #navbar ul li a{
+    font-size: 1rem;
+    padding: 11px;
+    padding-bottom: 30px;
+ }
+
+ /* Home Section */
+#home{
+    /*adjust krne k lye*/
+   height: 290px;
+   padding: 5px 65px;
+}
+#home::before{
+   height: 500px;
+}
+
+#home p{
+    height: 1.6rem;
+    font-size: 0.7em;
+}
+
+/* Services Section */
+#services{
+  flex-direction: column; 
+}
+
+#services .box{
+margin: 3px 0px;
+padding: 10px;
+margin-bottom: 20px;  
+}
+
+/* Clients Section */
+
+#clients{
+    /* overflow: hidden; isse jo extra bahir arha hota hai wo chup jata hai */
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 60px;
+    padding: 2px 7px;
+}
+
+/* Contact Us */
+
+#contact-box form{
+    width: 90%;
+}
+/* footer */
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 17px;
+}
+
+.btn{
+    font-size: 10px;
+    padding: 8px 10px;
+}
